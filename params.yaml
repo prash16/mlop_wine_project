@@ -23,6 +23,9 @@ estimators:
       l1_ratio: 0.4
 model_dir: saved_models
 
+### 3rd day 
+
+
 # reports:
 #   params: report/params.json
 #   scores: report/scores.json
