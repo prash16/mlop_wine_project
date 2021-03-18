@@ -9,7 +9,7 @@ Steps followed for the project
 3. Create the requirement 
 
 4. Install the requirements
-5. Download the data  copy in data_given directory 
+5. Download the data  copy in input data  directory 
 
 
 
