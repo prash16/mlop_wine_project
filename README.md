@@ -12,5 +12,11 @@ Steps followed for the project
 5. Download the data  copy in input data  directory 
 
 
+#### day 3 
+
+dvc metrics show
+
+tox create a virtual env for you ... testing env for you 
+
 
 
