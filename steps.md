@@ -403,5 +403,8 @@ base.html ---
 
 find bootstarp pages 
 
+new concept : django templating
+new concept : flask application 
+
 
 
