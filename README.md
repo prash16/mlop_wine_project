@@ -20,3 +20,10 @@ tox create a virtual env for you ... testing env for you
 
 
 
+New concepts 
+
+yaml file 
+dvc 
+testing 
+pytest 
+assert 
