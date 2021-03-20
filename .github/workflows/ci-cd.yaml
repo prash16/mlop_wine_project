@@ -1,4 +1,5 @@
 name: Python application
+
 on:
   push:
     branches:
@@ -9,7 +10,9 @@ on:
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v2
       with:
@@ -36,7 +39,7 @@ jobs:
     #   env:
     #     HEROKU_API_TOKEN: ${{ secrets.HEROKU_API_TOKEN }}
     #     HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
-    #   if: github.ref == 'refs/heads/main' && job.status == 'success'
+    #   if: github.ref == 'refs/heads/dev-dvc-testing' && job.status == 'success'
     #   run: |
-    #     git remote add heroku https://github.com/prash16/mlop_wine_project
-    #     git push heroku HEAD:main -f
+    #     git remote add heroku https://heroku:$HEROKU_API_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git
+    #     git push heroku HEAD:dev-dvc-testing -f
