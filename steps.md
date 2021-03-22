@@ -420,3 +420,13 @@ cp saved_models/model.joblib prediction_service/model
 touch Procfile 
 in github --- for some reason caps was of..so corrected that 
 
+Session  4  Mlops 
+
+##### Session 4 
+
+Test is not working --- any values... 
+Pipeline is working 
+- Modify the testing 
+
+mlflow +dvc 
+
