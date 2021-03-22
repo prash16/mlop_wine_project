@@ -1,1 +1,1 @@
-web gunicorn wine-mlop-app:app
+web: gunicorn app:app
