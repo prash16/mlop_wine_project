@@ -405,6 +405,18 @@ find bootstarp pages
 
 new concept : django templating
 new concept : flask application 
+new concept : yaml
+new concept : joblib 
+new concept : postaman api testing 
+new concept: workflow yaml file 
+mkdir -p .github/workflows/
+touch .github/workflows/ci-cd.yaml
 
 
+for example 
+
+cp saved_models/model.joblib prediction_service/model
+
+touch Procfile 
+in github --- for some reason caps was of..so corrected that 
 
