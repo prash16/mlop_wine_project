@@ -446,3 +446,6 @@ mlflow server \
 
 
 mlflow server \--backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 127.0.0.1 -p 5000
+
+
+### I have to change the port for the app and ml flow .. they need to be different 
