@@ -78,7 +78,6 @@ def train_and_evaluate(config_path):
                 registered_model_name=mlflow_config["registered_model_name"])
         else:
             mlflow.sklearn.load_model(lr, "model")
- 
 
 
 if __name__=="__main__":

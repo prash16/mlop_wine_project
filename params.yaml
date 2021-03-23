@@ -19,8 +19,10 @@ estimators:
     params:
       # alpha: 0.88
       # l1_ratio: 0.89
-      alpha: 0.8
-      l1_ratio: 0.4
+      # alpha: 0.8
+      # l1_ratio: 0.4
+       alpha: 0.7
+       l1_ratio: 0.6
 model_dir: saved_models
 
 ### 3rd day 
@@ -39,5 +41,5 @@ mlflow_config:
   experiment_name: ElasticNet regression
   run_name: mlops
   registered_model_name: ElasticNetWineModel
-  remote_server_uri: http://127.0.0.5000
+  remote_server_uri: http://127.0.0.1:5000
   
