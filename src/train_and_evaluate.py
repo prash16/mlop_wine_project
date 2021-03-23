@@ -76,6 +76,7 @@ def train_and_evaluate(config_path):
         }
         json.dump(params, f, indent=4)
 #####################################################
+#yes 
 
 
     os.makedirs(model_dir, exist_ok=True)
