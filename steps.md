@@ -430,3 +430,19 @@ Pipeline is working
 
 mlflow +dvc 
 
+###mlflow ... change train and evaluate part 
+git checkout -b main-mlflow
+
+touch src/log_production_model.py
+
+mkdir artifacts
+
+
+mlflow server \
+--backend-store-uri sqlite:///mlflow.db
+--default-artifact-root ./artifacts
+--host 127.0.0.1 -p 5000
+
+
+
+mlflow server \--backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 127.0.0.1 -p 5000
